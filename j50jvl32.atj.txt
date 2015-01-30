@@ -1,0 +1,756 @@
+﻿add new web project based on beta 8
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Fri Jan 30 22:00:40 2015 +0100
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    FieldstoneSpike/FieldstoneSpike.sln
+#	deleted:    FieldstoneSpike/global.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/.bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/CHANGELOG.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/Gruntfile.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/LICENSE-MIT
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/README.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/dist/css/bootstrap-touch-carousel.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/dist/js/bootstrap-touch-carousel.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/package.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/src/js/touch-carousel.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/src/js/transition.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/src/less/carousel.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap-touch-carousel/src/less/elements.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/.bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/CNAME
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/CONTRIBUTING.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/Gruntfile.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/css/docs.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/css/pygments-manni.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/ico/favicon.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/application.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/customizer.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/filesaver.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/holder.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/html5shiv.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/jquery.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/jszip.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/less.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/raw-files.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/respond.min.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/assets/js/uglify.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/browserstack.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/components.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/composer.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/css.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/customize.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/dist/css/bootstrap-theme.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/dist/css/bootstrap-theme.min.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/dist/css/bootstrap.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/dist/css/bootstrap.min.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/dist/js/bootstrap.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/dist/js/bootstrap.min.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/carousel/carousel.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/carousel/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/grid/grid.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/grid/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/jumbotron-narrow/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/jumbotron-narrow/jumbotron-narrow.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/jumbotron/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/jumbotron/jumbotron.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/justified-nav/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/justified-nav/justified-nav.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/navbar-fixed-top/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/navbar-fixed-top/navbar-fixed-top.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/navbar-static-top/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/navbar-static-top/navbar-static-top.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/navbar/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/navbar/navbar.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/non-responsive/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/non-responsive/non-responsive.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/offcanvas/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/offcanvas/offcanvas.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/offcanvas/offcanvas.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/carousel.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/grid.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/jumbotron-narrow.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/jumbotron.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/justified-nav.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/navbar-fixed.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/navbar-static.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/navbar.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/non-responsive.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/offcanvas.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/sign-in.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/starter-template.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/sticky-footer-navbar.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/sticky-footer.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/screenshots/theme.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/signin/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/signin/signin.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/starter-template/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/starter-template/starter-template.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/sticky-footer-navbar/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/sticky-footer-navbar/sticky-footer-navbar.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/sticky-footer/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/sticky-footer/sticky-footer.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/theme/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/examples/theme/theme.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/getting-started.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/javascript.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/affix.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/alert.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/button.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/carousel.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/collapse.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/dropdown.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/modal.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/popover.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/scrollspy.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tab.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/phantom.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/server.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/affix.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/alert.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/button.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/carousel.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/collapse.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/dropdown.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/modal.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/phantom.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/popover.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/scrollspy.js
+#	modified:   FieldstoneSpike/src/Fieldstone/project.lock.json
+#	modified:   FieldstoneSpike/src/Fieldstone/wwwroot/_references.js
+#	new file:   FieldstoneSpike/src/SpikeBeta8/.bowerrc
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Controllers/AccountController.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Controllers/HomeController.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Controllers/ManageController.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Migrations/00000000000000_CreateIdentitySchema.Designer.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Migrations/00000000000000_CreateIdentitySchema.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Migrations/ApplicationDbContextModelSnapshot.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Models/ApplicationDbContext.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Models/ApplicationUser.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Project_Readme.html
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Properties/AssemblyInfo.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Services/IEmailSender.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Services/ISmsSender.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Services/MessageServices.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/SpikeBeta8.xproj
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Startup.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/ExternalLoginConfirmationViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/ForgotPasswordViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/LoginViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/RegisterViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/ResetPasswordViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/SendCodeViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/VerifyCodeViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/AddPhoneNumberViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/ChangePasswordViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/ConfigureTwoFactorViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/FactorViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/IndexViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/ManageLoginsViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/SetPasswordViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/VerifyPhoneNumberViewModel.cs
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/ConfirmEmail.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/ExternalLoginConfirmation.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/ExternalLoginFailure.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/ForgotPassword.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/ForgotPasswordConfirmation.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/Lockout.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/Login.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/Register.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/ResetPassword.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/ResetPasswordConfirmation.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/SendCode.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Account/VerifyCode.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Home/About.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Home/Contact.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Home/Index.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Manage/AddPhoneNumber.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Manage/ChangePassword.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Manage/Index.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Manage/ManageLogins.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Manage/RemoveLogin.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Manage/SetPassword.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Manage/VerifyPhoneNumber.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Shared/Error.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Shared/_Layout.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Shared/_LoginPartial.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/Shared/_ValidationScriptsPartial.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/_ViewImports.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/Views/_ViewStart.cshtml
+#	new file:   FieldstoneSpike/src/SpikeBeta8/appsettings.json
+#	renamed:    FieldstoneSpike/src/Fieldstone/bower.json -> FieldstoneSpike/src/SpikeBeta8/bower.json
+#	new file:   FieldstoneSpike/src/SpikeBeta8/gulpfile.js
+#	new file:   FieldstoneSpike/src/SpikeBeta8/package.json
+#	new file:   FieldstoneSpike/src/SpikeBeta8/project.json
+#	new file:   FieldstoneSpike/src/SpikeBeta8/wwwroot/_references.js
+#	new file:   FieldstoneSpike/src/SpikeBeta8/wwwroot/css/site.css
+#	new file:   FieldstoneSpike/src/SpikeBeta8/wwwroot/favicon.ico
+#	new file:   FieldstoneSpike/src/SpikeBeta8/wwwroot/images/ASP-NET-Banners-01.png
+#	new file:   FieldstoneSpike/src/SpikeBeta8/wwwroot/images/ASP-NET-Banners-02.png
+#	new file:   FieldstoneSpike/src/SpikeBeta8/wwwroot/images/Banner-01-Azure.png
+#	new file:   FieldstoneSpike/src/SpikeBeta8/wwwroot/images/Banner-02-VS.png
+#	new file:   FieldstoneSpike/src/SpikeBeta8/wwwroot/js/site.js
+#	new file:   FieldstoneSpike/src/SpikeBeta8/wwwroot/web.config
+#
+# Changes not staged for commit:
+#	deleted:    FieldstoneSpike/src/Fieldstone/Compiler/Preprocess/RazorPreCompilation.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Controllers/AccountController.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Controllers/HomeController.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Controllers/ManageController.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/FieldstoneSpike.xproj
+#	deleted:    FieldstoneSpike/src/Fieldstone/MessageServices.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Migrations/00000000000000_CreateIdentitySchema.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Migrations/ApplicationDbContextModelSnapshot.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Models/AccountViewModels.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Models/IdentityModels.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Models/ManageViewModels.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Project_Readme.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/Properties/AppSettings.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Startup.cs
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/ConfirmEmail.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/ExternalLoginConfirmation.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/ExternalLoginFailure.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/ForgotPassword.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/ForgotPasswordConfirmation.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/Login.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/Register.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/ResetPassword.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/ResetPasswordConfirmation.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/SendCode.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Account/VerifyCode.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Home/About.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Home/Contact.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Home/Index.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Manage/AddPhoneNumber.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Manage/ChangePassword.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Manage/Index.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Manage/ManageLogins.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Manage/RemoveLogin.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Manage/SetPassword.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Manage/VerifyPhoneNumber.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Shared/Error.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Shared/_Layout.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Shared/_LoginPartial.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/Shared/_ValidationScriptsPartial.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/_GlobalImport.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/Views/_ViewStart.cshtml
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/LICENSE
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/README.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_config.yml
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/ads.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/footer.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/header.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/nav-components.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/nav-css.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/nav-customize.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/nav-getting-started.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/nav-javascript.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/nav-main.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/old-bs-docs.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_includes/social-buttons.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_layouts/default.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/_layouts/home.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/tab.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/tooltip.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/unit/transition.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/vendor/jquery.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/vendor/qunit.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tests/vendor/qunit.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/tooltip.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/js/transition.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/alerts.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/badges.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/bootstrap.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/breadcrumbs.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/button-groups.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/buttons.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/carousel.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/close.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/code.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/component-animations.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/dropdowns.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/forms.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/glyphicons.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/grid.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/input-groups.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/jumbotron.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/labels.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/list-group.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/media.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/mixins.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/modals.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/navbar.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/navs.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/normalize.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/pager.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/pagination.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/panels.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/popovers.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/print.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/progress-bars.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/responsive-utilities.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/scaffolding.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/tables.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/theme.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/thumbnails.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/tooltip.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/type.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/utilities.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/variables.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/less/wells.less
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/bootstrap/package.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/.bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/.bowerrc
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/.gitignore
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/.jscsrc
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/.jshintrc
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/.travis.yml
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/CHANGELOG.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/CONTRIBUTING.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/Gruntfile.coffee
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/LICENSE.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/README.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/component.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/hammer.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/hammer.min.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/hammer.min.map
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/hammer.js/package.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation-unobtrusive/.bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation-unobtrusive/.gitignore
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation-unobtrusive/CONTRIBUTING.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation-unobtrusive/LICENSE.txt
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation-unobtrusive/README.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation-unobtrusive/bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/.bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/.gitattributes
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/.gitignore
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/.travis.yml
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/CONTRIBUTING.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/Gruntfile.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/README.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/additional-methods.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/changelog.txt
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/ajaxSubmit-integration-demo.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/captcha.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/fonts/Anorexia.ttf
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/image_req.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/images/.htaccess
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/images/button.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/images/image.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/index.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/newsession.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/process.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/rand.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/captcha/style.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/css/cmxform.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/css/cmxformTemplate.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/css/core.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/css/reset.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/css/screen.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/custom-messages-data-demo.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/custom-methods-demo.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/dynamic-totals.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/errorcontainer-demo.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/file_input.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/images/bg.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/images/checked.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/images/cmxform-divider.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/images/cmxform-fieldset.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/images/loading.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/images/unchecked.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/jquerymobile.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/login/images/bg.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/login/images/header1.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/login/images/page.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/login/images/required_star.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/login/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/login/screen.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/backRequiredGray.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/back_green-fade.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/back_nav_blue.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/blank.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/button-submit.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/favicon.ico
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/help.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/left-nav-callout-long.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/login-sprite.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/logo_marketo.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/sf.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/step1-24.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/step2-24.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/step3-24.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/tab-sprite.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/tab_green.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/time.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/toggle.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/images/warning.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/jquery.maskedinput.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/mktSignup.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/step2.htm
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/marketo/stylesheet.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/milk/bg.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/milk/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/milk/left_white.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/milk/milk.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/milk/milk.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/milk/right_white.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/multipart/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/multipart/js/jquery.maskedinput-1.0.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/multipart/js/ui.accordion.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/multipart/js/ui.core.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/multipart/style.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/radio-checkbox-select-demo.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/tabs/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/themerollered.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/tinymce/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/tinymce/themes/simple/editor_template.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/tinymce/themes/simple/img/icons.gif
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/tinymce/themes/simple/langs/en.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/tinymce/themes/simple/skins/default/ui.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/demo/tinymce/tiny_mce.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/jquery.validate.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/lib/jquery-1.6.4.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/lib/jquery-1.7.2.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/lib/jquery-1.8.3.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/lib/jquery-1.9.0.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/lib/jquery.form.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/lib/jquery.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/lib/jquery.mockjax.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_ar.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_bg.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_ca.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_cs.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_da.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_de.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_el.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_es.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_et.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_eu.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_fa.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_fi.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_fr.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_he.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_hr.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_hu.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_it.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_ja.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_ka.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_kk.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_ko.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_lt.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_lv.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_my.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_nl.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_no.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_pl.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_pt_BR.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_pt_PT.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_ro.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_ru.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_si.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_sk.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_sl.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_sr.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_sv.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_th.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_tr.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_uk.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_vi.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_zh.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/messages_zh_TW.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/methods_de.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/methods_nl.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/localization/methods_pt.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/package.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/events.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/firebug/errorIcon.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/firebug/firebug.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/firebug/firebug.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/firebug/firebug.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/firebug/firebugx.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/firebug/infoIcon.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/firebug/warningIcon.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/jquery.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/large.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/messages.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/methods.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/qunit/qunit.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/qunit/qunit.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/rules.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/selects/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/tabs.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/test/test.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/todo
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery-validation/validation.jquery.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/.bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/.editorconfig
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/.gitattributes
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/.gitignore
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/.gitmodules
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/.jshintrc
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/.mailmap
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/AUTHORS.txt
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/CONTRIBUTING.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/Gruntfile.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/MIT-LICENSE.txt
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/README.md
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/bower.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/build/release-notes.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/build/release.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/component.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/composer.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/jquery-migrate.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/jquery-migrate.min.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/jquery.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/jquery.min.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/jquery.min.map
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/package.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/benchmark.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/benchmarker.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/benchmarker.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/closest.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/css.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/event.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/filter.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/find.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/jquery-basis.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/speed/slice.vs.concat.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/.jshintrc
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/ajax.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/ajax/jsonp.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/ajax/script.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/ajax/xhr.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/attributes.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/callbacks.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/core.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/css.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/data.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/deferred.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/deprecated.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/dimensions.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/effects.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/event-alias.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/event.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/exports.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/intro.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/manipulation.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/offset.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/outro.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/queue.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/serialize.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/sizzle-jquery.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/support.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/traversing.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/src/wrap.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/.jshintignore
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/.jshintrc
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/1x1.jpg
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/ajax/unreleasedXHR.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/atom+xml.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/badcall.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/badjson.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/cleanScript.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/core/cc_on.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/dashboard.xml
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/dimensions/documentLarge.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/dimensions/documentSmall.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/echoData.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/echoQuery.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/errorWithJSON.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/errorWithText.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/etag.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/evalScript.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/event/focusElem.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/event/longLoadScript.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/event/promiseReady.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/event/syncReady.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/headers.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/if_modified_since.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/iframe.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/jquery-1.9.1.ajax_xhr.min.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/json.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/json_obj.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/jsonp.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/manipulation/iframe-denied.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/name.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/name.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/nocontent.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/offset/absolute.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/offset/body.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/offset/fixed.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/offset/relative.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/offset/scroll.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/offset/static.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/offset/table.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/params_html.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/readywaitasset.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/readywaitloader.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/script.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/selector/html5_selector.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/selector/sizzle_cache.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/statusText.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/support/bodyBackground.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/support/boxSizing.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/support/csp.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/support/csp.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/support/shrinkWrapBlocks.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/support/testElementCrash.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/test.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/test.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/test.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/test2.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/test3.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/testinit.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/testrunner.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/testsuite.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/text.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/ua.txt
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/with_fries.xml
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/data/with_fries_over_jsonp.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/delegatetest.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/hovertest.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/index.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/jquery.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/localfile.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/networkerror.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/readywait.html
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/ajax.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/attributes.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/callbacks.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/core.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/css.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/data.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/deferred.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/deprecated.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/dimensions.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/effects.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/event.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/exports.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/manipulation.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/offset.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/queue.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/selector.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/serialize.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/support.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/traversing.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/unit/wrap.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/bower_components/jquery/test/xhtml.php
+#	deleted:    FieldstoneSpike/src/Fieldstone/config.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/gulpfile.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/package.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/project.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/project.lock.json
+#	deleted:    FieldstoneSpike/src/Fieldstone/wwwroot/_references.js
+#	deleted:    FieldstoneSpike/src/Fieldstone/wwwroot/css/site.css
+#	deleted:    FieldstoneSpike/src/Fieldstone/wwwroot/favicon.ico
+#	deleted:    FieldstoneSpike/src/Fieldstone/wwwroot/images/ASP-NET-Banners-01.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/wwwroot/images/ASP-NET-Banners-02.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/wwwroot/images/Banner-01-Azure.png
+#	deleted:    FieldstoneSpike/src/Fieldstone/wwwroot/images/Banner-02-VS.png
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/.bowerrc
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Controllers/AccountController.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Controllers/HomeController.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Controllers/ManageController.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Migrations/00000000000000_CreateIdentitySchema.Designer.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Migrations/00000000000000_CreateIdentitySchema.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Migrations/ApplicationDbContextModelSnapshot.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Models/ApplicationDbContext.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Models/ApplicationUser.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Project_Readme.html
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Properties/AssemblyInfo.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Services/IEmailSender.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Services/ISmsSender.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Services/MessageServices.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/SpikeBeta8.xproj
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Startup.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/ExternalLoginConfirmationViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/ForgotPasswordViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/LoginViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/RegisterViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/ResetPasswordViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/SendCodeViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Account/VerifyCodeViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/AddPhoneNumberViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/ChangePasswordViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/ConfigureTwoFactorViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/FactorViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/IndexViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/ManageLoginsViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/SetPasswordViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/ViewModels/Manage/VerifyPhoneNumberViewModel.cs
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/ConfirmEmail.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/ExternalLoginConfirmation.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/ExternalLoginFailure.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/ForgotPassword.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/ForgotPasswordConfirmation.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/Lockout.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/Login.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/Register.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/ResetPassword.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/ResetPasswordConfirmation.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/SendCode.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Account/VerifyCode.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Home/About.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Home/Contact.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Home/Index.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Manage/AddPhoneNumber.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Manage/ChangePassword.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Manage/Index.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Manage/ManageLogins.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Manage/RemoveLogin.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Manage/SetPassword.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Manage/VerifyPhoneNumber.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Shared/Error.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Shared/_Layout.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Shared/_LoginPartial.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/Shared/_ValidationScriptsPartial.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/_ViewImports.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/Views/_ViewStart.cshtml
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/appsettings.json
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/bower.json
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/gulpfile.js
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/package.json
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/project.json
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/wwwroot/_references.js
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/wwwroot/css/site.css
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/wwwroot/favicon.ico
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/wwwroot/images/ASP-NET-Banners-01.png
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/wwwroot/images/ASP-NET-Banners-02.png
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/wwwroot/images/Banner-01-Azure.png
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/wwwroot/images/Banner-02-VS.png
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/wwwroot/js/site.js
+#	deleted:    FieldstoneSpike/src/SpikeBeta8/wwwroot/web.config
+#	deleted:    FieldstoneSpike/test/FieldstoneSpike.Test/FieldstoneSpike.Test.csproj
+#	deleted:    FieldstoneSpike/test/FieldstoneSpike.Test/Properties/AssemblyInfo.cs
+#	deleted:    FieldstoneSpike/test/FieldstoneSpike.Test/UnitTest1.cs
+#
+
