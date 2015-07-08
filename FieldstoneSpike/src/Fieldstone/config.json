@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "Fieldstone"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Fieldstone-b4f3088d-4451-4587-8666-3e2df973cceb;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
